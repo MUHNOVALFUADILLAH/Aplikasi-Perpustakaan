@@ -10,6 +10,10 @@ use App\Http\Controllers\PeminjamanController;
 use App\Http\Controllers\DashboardController;
 
 
+Route::get('/', function () {
+    return "Belarhan Laravel 10";
+})->name('home');
+
 
 // Rute autentikasi
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
