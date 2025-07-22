@@ -10,12 +10,6 @@ use App\Http\Controllers\PeminjamanController;
 use App\Http\Controllers\DashboardController;
 
 
-Route::get('/coba', function () {
-    return 'coba';
-});
-
-
-
 
 // Rute autentikasi
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
