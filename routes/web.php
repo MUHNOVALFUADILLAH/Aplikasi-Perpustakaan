@@ -10,6 +10,11 @@ use App\Http\Controllers\PeminjamanController;
 use App\Http\Controllers\DashboardController;
 
 
+Route::get('/coba', function () {
+    return 'coba';
+});
+
+
 
 
 // Rute autentikasi
